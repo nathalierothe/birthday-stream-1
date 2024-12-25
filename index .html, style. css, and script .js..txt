@@ -1,20 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birthday Announcement</title>
+    <title>Nathalie's Birthday Celebration!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Birthday Announcement -->
     <div id="birthday-announcement" class="announcement">
-        <p>🎉 It's Nathalie's Birthday! 🎉</p>
-        <p>Join the celebration and wish her a happy birthday!</p>
+        <div class="announcement-inner">
+            <h1>🎉 It's Nathalie's Birthday! 🎉</h1>
+            <p class="message">Join me for a wild birthday bash—filled with surprises, games, and a whole lot of fun! 💕</p>
+            <p class="hint">Don't forget to wish me a happy birthday in chat! 😘</p>
+        </div>
     </div>
 
     <!-- Link to JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
+
+    
