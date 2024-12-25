@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Announcement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Birthday Announcement -->
+    <div id="birthday-announcement" class="announcement">
+        <p>🎉 It's Nathalie's Birthday! 🎉</p>
+        <p>Join the celebration and wish her a happy birthday!</p>
+    </div>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
