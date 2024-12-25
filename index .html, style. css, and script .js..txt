@@ -1,24 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nathalie's Birthday Celebration!</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Birthday Announcement -->
-    <div id="birthday-announcement" class="announcement">
-        <div class="announcement-inner">
-            <h1>🎉 It's Nathalie's Birthday! 🎉</h1>
-            <p class="message">Join me for a wild birthday bash—filled with surprises, games, and a whole lot of fun! 💕</p>
-            <p class="hint">Don't forget to wish me a happy birthday in chat! 😘</p>
-        </div>
-    </div>
+// Function to show the spooky birthday announcement
+function showBirthdayAnnouncement() {
+    const announcement = document.getElementById('birthday-announcement');
+    announcement.style.display = 'block';
 
-    <!-- Link to JavaScript -->
-    <script src="script.js"></script>
-</body>
-</html>
+    // Hide it after 10 seconds
+    setTimeout(() => {
+        announcement.style.display = 'none';
+    }, 10000); // 10000ms = 10 seconds
+}
 
-    
+// Show the announcement every 15 minutes (900000ms)
+setInterval(showBirthdayAnnouncement, 900000); // 900000ms = 15 minutes
